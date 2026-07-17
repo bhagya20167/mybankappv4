@@ -10,17 +10,17 @@
                 <font color="blue"> Bank </font>
            </center> 
            <nav>
-                <a href="#index.html">About bank</a> &nbsp; &nbsp;
-                <a href="#loans.html">Loans</a> &nbsp; &nbsp;
-                <a href="#branches.html">Branches</a> &nbsp; &nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv2\index.html">About bank</a> &nbsp; &nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv2\loans.html">Loans</a> &nbsp; &nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv2\branches.html">Branches</a> &nbsp; &nbsp;
                 <a href="#">Feedback</a>&nbsp;&nbsp;
-                <a href="#Credit card Application.html">Credit Card Apply</a>&nbsp;&nbsp;
-                <a href="#customer Profile Update.html">Customer Profile</a>&nbsp;&nbsp;
-                <a href="#customer registration form.html">Registration Form</a>&nbsp;&nbsp;
-                <a href="#EMI Calculator.html">EMI Calculator</a>&nbsp;&nbsp;
-                <a href="#Internet Banking Login.html">Banking Loan</a>&nbsp;&nbsp;
-                <a href="#Loan Eligibility check.html">Loan Eligibility</a>&nbsp;&nbsp;
-                <a href="#Open New Bank Account.html">Open Bank Account</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Credit card Application.html">Credit Card Apply</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\customer Profile Update.html">Customer Profile</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Customer registration form.html">Registration Form</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\EMI Calculator.html">EMI Calculator</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Internet Banking Login.html">Banking Loan</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Loan Eligibility Check.html">Loan Eligibility</a>&nbsp;&nbsp;
+                <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Open New Bank Account.html">Open Bank Account</a>&nbsp;&nbsp;
            </nav>
         </header>
         <hr>
@@ -29,7 +29,7 @@
                 <h1>Branch Feedback</h1>
             </center>
             <table align="center" border="2px" cellspacing="5px" cellpadding="5px">
-            <form action="iciciserverurl" method="get" name="feedback">
+            <form action="iciciserverurl" method="post" name="feedback">
                 <tr>
                     <td><label for="id1">Name</label></td>
                     <td><input type="text" id="id1" name="name"> </td>
@@ -53,9 +53,9 @@
                     <td><label>Rating</label></td>
                     
                     <td>
-                        <input type="radio" value="Excellent" id="rate1" name="rating">Excellent
-                        <input type="radio" value="Good" id="rate2" name="rating">Good
-                        <input type="radio" value="Average"id="rate3" name=rating>Average
+                        <input type="radio" value="Excellent" id="rate1" name="rating"><label for="rate1">Excellent</label>
+                        <input type="radio" value="Good" id="rate2" name="rating"><label for="rate2">Good</label>
+                        <input type="radio" value="Average"id="rate3" name=rating><label for="rate3">Average</label>
                     </td>
                 </tr>
                 <tr>
@@ -63,9 +63,9 @@
                         <label>Services Used</label></td>
                     
                     <td>
-                        <input type="checkbox" value="ATM" id="service1" name="services">ATM
-                        <input type="checkbox" value="Loan" id="service2" name="services">Loan
-                        <input type="checkbox" value="Account" id="service3" name="services">Account
+                        <input type="checkbox" value="ATM" id="service1" name="services"><label for="service1">ATM</label>
+                        <input type="checkbox" value="Loan" id="service2" name="services"><label for="service2">Loan</label>
+                        <input type="checkbox" value="Account" id="service3" name="services"><label for="service3">Account</label>
                     </td>
                 </tr>
                 <tr>
@@ -74,8 +74,8 @@
                     
                 </tr>
                 <tr>
-                    <td><input type="submit" value="Submit"id="submit"name="button">&nbsp;</td>
-                    <td><input type="reset" value="Reset"id="reset"name="button"></td>
+                    <td><input type="submit" value="Submit"id="submit"name="button">&nbsp;</td><label for="submit">submit</label>
+                    <td><input type="reset" value="Reset"id="reset"name="button"></td><label for="reset">reset</label>
             </form>
         </table>
         </main>

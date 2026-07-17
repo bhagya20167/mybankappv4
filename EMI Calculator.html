@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Credit card Application</title>
+        <title>EMI Caluculator</title>
     </head>
     <body>
         <header>
             <center>
                 <font color="orange"> Bhagya </font>
                 <font color="blue"> Bank </font>
-           </center> 
-           <nav>
+           </center>
+            
+            <nav>
                 <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv2\index.html">About bank</a> &nbsp; &nbsp;
                 <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv2\loans.html">Loans</a> &nbsp; &nbsp;
                 <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv2\branches.html">Branches</a> &nbsp; &nbsp;
@@ -21,55 +22,44 @@
                 <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Internet Banking Login.html">Banking Loan</a>&nbsp;&nbsp;
                 <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Loan Eligibility Check.html">Loan Eligibility</a>&nbsp;&nbsp;
                 <a href="C:\Users\P BHAGYA\OneDrive\Desktop\html apps\mybankappv4\Open New Bank Account.html">Open Bank Account</a>&nbsp;&nbsp;
-           </nav>
+           </nav> 
         </header>
         <hr>
         <main>
-            <center><h1>Credit Card Application</h1></center>
-            <form action="iciciurlserver" method="POST" name="credit card application">
+            <center>
+            <h1>EMI Caluculator</h1>
+            </center>
+            <form action="url@server" method="post">
                 <table border="2px" align="center" cellspacing="5px" cellpadding="5px">
                     <tr>
-                        <td><label for="id1">Name</label></td>
-                        <td><input type="text" id="id1" name="name1"></td>
+                        <td><label for="id1">Loan Amount</label></td>
+                        <td><input type="text" id="id1" name="name2"></td>
                     </tr>
-                     <tr>
-                        <td><label for="id2">Email</label></td>
-                        <td><input type="email" id="id2" name="name2"></td>
+                    <tr>
+                        <td><label for="id2">Interest Rate(%)</label></td>
+                        <td> <input type="text" id="id2" name="name3"></td>
                     </tr>
-                     <tr>
-                        <td><label for="id3">Phone</label></td>
-                        <td><input type="tel" id="id3" name="name3"></td>
+                    <tr>
+                        <td><label for="id3">Loan Tenure</label></td>
+                        <td><input type="text" id="id3" name="name4"></td>
                     </tr>
-                     <tr>
-                        <td><label for="id4">salary</label></td>
-                        <td><input type="text" id="id4" name="name4"></td>
-                    </tr>
-                     <tr>
-                        <td><label>Employement</label></td>
-                        <td><input type="radio" value="private" id="employed1" name="employee"><label for="employed1">private</label>
-                            <input type="radio" value="Government" id="employed2" name="employee"><label for="employed2">Government</label>
-                        </td>
-                    </tr>
-                     <tr>
-                        <td><label for="id5">Resume</label></td>
-                        <td><input type="file" id="id5" name="resume"></td>
-                    </tr>
-                     <tr>
-                        <td><label for="id6">Address</label></td>
-                        <td><input type="text" id="id6" name="address"></td>
-                    </tr>
-                     <tr>
-                        <td><label>Card Type</label></td>
+                    <tr>
+                        <td><label>Tenure Type</label></td>
                         <td>
-                            <select >
-                                <option value="silver" id="value1" name="value">Silver</option>
-                                <option value="gold" id="value2" name="value">Gold</option>
-                                <option value="Platinum" id="value3" name="value">Platinum</option>
+                            <select>
+                                <option value="Months" id="id5" name="name5">Months</option>
+                                <option value="Half Yearly" id="id6" name="name6">Half Yearly</option>
+                                <option value="yearly" id="id7" name="name7">yearly</option>
                             </select>
                         </td>
                     </tr>
-                     <tr>
-                        <td><input type="submit" value="submit" id="id7" name="button"></td>
+                    <tr>
+                        <td><label for="id4">EMI Start Date</label></td>
+                        <td><input type="date" id="id4" name="name1"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Calculate" id="id8" name="name8">&nbsp;</td>
+                        <td><input type="reset" value="Reset" id="id9" name="name9"></td>
                     </tr>
                 </table>
             </form>
@@ -83,4 +73,7 @@
         </footer>
 
     </body>
+    <foot>
+
+    </foot>
 </html>
